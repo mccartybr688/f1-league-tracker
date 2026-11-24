@@ -1,5 +1,5 @@
 -- =====================================================================
--- F1 Family League — schema (step 1: data model)
+-- F1 League Tracker — schema (step 1: data model)
 -- Run in the Supabase SQL editor, or with `supabase db push`.
 --
 -- Rules built in (see docs/rules.md):

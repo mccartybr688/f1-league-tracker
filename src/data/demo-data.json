@@ -1,7 +1,7 @@
 {
  "seasons": [
   {
-   "id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "number": 1,
    "name": "Winter Season 1 (Demo)",
    "status": "active",
@@ -16,354 +16,378 @@
     1
    ],
    "attempts_per_race": 10,
-   "created_at": "2026-11-24T00:25:39.903283+00:00"
+   "created_at": "2026-11-24T00:51:20.027753+00:00"
   }
  ],
  "tracks": [
   {
-   "id": "8c88a5dd-b5f0-4a38-a0bb-828b70c02393",
+   "id": "1419bfc2-6bcf-4f61-be55-475c6f73425f",
    "name": "Albert Park",
    "grand_prix": "Australian Grand Prix",
    "country": "Australia",
    "country_code": "AU",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "au-1953"
   },
   {
-   "id": "e3254936-9947-4f8f-9bad-3bd870fc2b86",
+   "id": "4dc9a80b-96ad-40ad-b907-72723f130228",
    "name": "Bahrain",
    "grand_prix": "Bahrain Grand Prix",
    "country": "Bahrain",
    "country_code": "BH",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "bh-2002"
   },
   {
-   "id": "abe1f4f1-857a-4d06-a154-4b5f9424c760",
+   "id": "bc86ef5c-cf0a-4e6e-8e90-aad7b79fbf10",
    "name": "Baku",
    "grand_prix": "Azerbaijan Grand Prix",
    "country": "Azerbaijan",
    "country_code": "AZ",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "az-2016"
   },
   {
-   "id": "e5d40637-283f-4ecb-89a5-5048e0d3325f",
+   "id": "f6667f2e-a08b-417c-ab03-19d385c24db3",
    "name": "Barcelona-Catalunya",
    "grand_prix": "Spanish Grand Prix",
    "country": "Spain",
    "country_code": "ES",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "es-1991"
   },
   {
-   "id": "1c21c491-5bd3-41fe-a0bb-b9d2b77e914b",
+   "id": "75e134b7-8920-4e69-8765-ad590398d95e",
    "name": "Circuit of the Americas",
    "grand_prix": "United States Grand Prix",
    "country": "United States",
    "country_code": "US",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "us-2012"
   },
   {
-   "id": "b0e193ba-c83f-454c-a6b6-8d2464dbf9c2",
+   "id": "27b43658-9b91-4021-beae-2d7e1e30a4e2",
    "name": "Hungaroring",
    "grand_prix": "Hungarian Grand Prix",
    "country": "Hungary",
    "country_code": "HU",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "hu-1986"
   },
   {
-   "id": "a563d2e4-8507-4d10-b30b-26ca65a4c592",
+   "id": "ded451c0-b5ac-4df6-8760-4412af9fa42c",
    "name": "Imola",
    "grand_prix": "Emilia Romagna Grand Prix",
    "country": "Italy",
    "country_code": "IT",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "it-1953"
   },
   {
-   "id": "cdf3fc06-71d0-4448-9243-586c39f60aff",
+   "id": "4f7c9a24-e8a3-4959-8bfd-6b86aadd32d8",
    "name": "Interlagos",
    "grand_prix": "S\u00e3o Paulo Grand Prix",
    "country": "Brazil",
    "country_code": "BR",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "br-1940"
   },
   {
-   "id": "d5f22639-125f-43cd-af3d-6622e37e6eec",
+   "id": "5a0516d2-d00b-41e5-9724-8b31c2f22d31",
    "name": "Jeddah",
    "grand_prix": "Saudi Arabian Grand Prix",
    "country": "Saudi Arabia",
    "country_code": "SA",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "sa-2021"
   },
   {
-   "id": "ee430e9c-20b3-450d-822b-fd2d5a52c742",
+   "id": "ffe74b94-c045-43a5-a0cd-fad4764eb131",
    "name": "Las Vegas",
    "grand_prix": "Las Vegas Grand Prix",
    "country": "United States",
    "country_code": "US",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "us-2023"
   },
   {
-   "id": "03cc5315-69b5-46d6-b055-2e7f18acd29c",
+   "id": "726d417f-1270-43b2-a0b0-569530bc4ec1",
    "name": "Lusail",
    "grand_prix": "Qatar Grand Prix",
    "country": "Qatar",
    "country_code": "QA",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "qa-2004"
   },
   {
-   "id": "b491d572-ade6-421f-a168-dc83e9a7e300",
+   "id": "ac052da1-22e1-4fe3-a66c-a3b500670e1a",
    "name": "Marina Bay",
    "grand_prix": "Singapore Grand Prix",
    "country": "Singapore",
    "country_code": "SG",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "sg-2008"
   },
   {
-   "id": "d30c6811-48b0-4e0b-b2b3-b1a344ffd923",
+   "id": "1d0ac99f-3fe9-4aed-aff7-0e4e365065d6",
    "name": "Mexico City",
    "grand_prix": "Mexico City Grand Prix",
    "country": "Mexico",
    "country_code": "MX",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "mx-1962"
   },
   {
-   "id": "b599af18-3e3c-4379-80bc-ede4b6597984",
+   "id": "b03857a1-4c32-4a8f-8e98-8dab307730f4",
    "name": "Miami",
    "grand_prix": "Miami Grand Prix",
    "country": "United States",
    "country_code": "US",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "us-2022"
   },
   {
-   "id": "31cad237-d17f-43e4-a053-60abf9d312a8",
+   "id": "db16fce6-1763-4bf4-85d6-f17609dec502",
    "name": "Monaco",
    "grand_prix": "Monaco Grand Prix",
    "country": "Monaco",
    "country_code": "MC",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "mc-1929"
   },
   {
-   "id": "ea6f0ef2-098b-4e50-9479-eadb84a75bf3",
+   "id": "b6fcdaa5-07e5-44da-8d42-10bf591c0b2f",
    "name": "Montreal",
    "grand_prix": "Canadian Grand Prix",
    "country": "Canada",
    "country_code": "CA",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "ca-1978"
   },
   {
-   "id": "8579780e-4ef6-4693-8f6c-2dccdf2bc8a5",
+   "id": "7a823af1-60e5-4dcf-8d4c-b3e888e2246c",
    "name": "Monza",
    "grand_prix": "Italian Grand Prix",
    "country": "Italy",
    "country_code": "IT",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "it-1922"
   },
   {
-   "id": "23ec33b2-1bd9-441c-9795-2d1250c3b357",
+   "id": "be6f49e4-7ccf-4c95-a909-53cf11a328ab",
    "name": "Red Bull Ring",
    "grand_prix": "Austrian Grand Prix",
    "country": "Austria",
    "country_code": "AT",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "at-1969"
   },
   {
-   "id": "570b546d-95e3-4055-8b44-00894b038b41",
+   "id": "4f83e2c6-3a91-4fa4-8bc1-9ddeaa838819",
    "name": "Shanghai",
    "grand_prix": "Chinese Grand Prix",
    "country": "China",
    "country_code": "CN",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "cn-2004"
   },
   {
-   "id": "71300e0a-815c-48bb-b9be-8e5709bdf9c0",
+   "id": "85abdc1a-a09b-497f-b6b0-953edf658fd4",
    "name": "Silverstone",
    "grand_prix": "British Grand Prix",
    "country": "United Kingdom",
    "country_code": "GB",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "gb-1948"
   },
   {
-   "id": "c67f1a4e-3bfc-4700-97df-1828950e57e7",
+   "id": "2775637f-3127-41e0-bcc3-c4053840dacf",
    "name": "Spa-Francorchamps",
    "grand_prix": "Belgian Grand Prix",
    "country": "Belgium",
    "country_code": "BE",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "be-1925"
   },
   {
-   "id": "451a310c-1ef2-43c1-96bd-c3f5bf902e27",
+   "id": "d1f6cdfe-0947-4028-87d4-bee9b4080f40",
    "name": "Suzuka",
    "grand_prix": "Japanese Grand Prix",
    "country": "Japan",
    "country_code": "JP",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "jp-1962"
   },
   {
-   "id": "fc738e35-c9ab-4951-9833-e844218bd23a",
+   "id": "2c7d0a5d-4b24-4d56-b7ff-6098da510821",
    "name": "Yas Marina",
    "grand_prix": "Abu Dhabi Grand Prix",
    "country": "United Arab Emirates",
    "country_code": "AE",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "ae-2009"
   },
   {
-   "id": "8d60a198-df7f-4e3e-80bd-c31d683f7e73",
+   "id": "98763773-a6df-40d0-a05c-99e72dec5b97",
    "name": "Zandvoort",
    "grand_prix": "Dutch Grand Prix",
    "country": "Netherlands",
    "country_code": "NL",
-   "layout": "Standard"
+   "layout": "Standard",
+   "circuit_id": "nl-1948"
   }
  ],
  "drivers": [
   {
-   "id": "7aad4d56-0e7f-471f-96b4-3ac7520d03c6",
+   "id": "54cb71df-e917-4f22-8997-861b7b4468bc",
    "display_name": "Captain Apex",
    "team_name": "Pit Lane Pirates",
    "in_game_car": "McLaren",
    "team_color": "#FF8000",
    "avatar_url": null,
    "photo_url": null,
-   "first_season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "first_season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "active": true,
-   "created_at": "2026-11-24T00:25:39.904275+00:00"
+   "created_at": "2026-11-24T00:51:20.028341+00:00"
   },
   {
-   "id": "d1512f32-0bee-4603-b1ea-f0dfd7eed901",
+   "id": "06f26d0b-7b04-4edd-8009-36d3e64d9884",
    "display_name": "Drift Queen",
    "team_name": "Purple Sector",
    "in_game_car": "Mercedes",
    "team_color": "#00D2BE",
    "avatar_url": null,
    "photo_url": null,
-   "first_season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "first_season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "active": true,
-   "created_at": "2026-11-24T00:25:39.904275+00:00"
+   "created_at": "2026-11-24T00:51:20.028341+00:00"
   },
   {
-   "id": "e1553910-d25f-4ca0-9d59-ba18a43afe7e",
+   "id": "304417b1-0eec-4269-9d71-f8ef07f40dad",
    "display_name": "Lightning Lou",
    "team_name": "Thunder Garage",
    "in_game_car": "Red Bull",
    "team_color": "#1E41FF",
    "avatar_url": null,
    "photo_url": null,
-   "first_season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "first_season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "active": true,
-   "created_at": "2026-11-24T00:25:39.904275+00:00"
+   "created_at": "2026-11-24T00:51:20.028341+00:00"
   },
   {
-   "id": "6fc1e5fb-43a2-4fe4-af0f-5e93dbbade86",
+   "id": "0e4155cb-a70c-4b9a-820f-eb4d330798f7",
    "display_name": "Rocket Rex",
    "team_name": "Dino Motorsport",
    "in_game_car": "Aston Martin",
    "team_color": "#006F62",
    "avatar_url": null,
    "photo_url": null,
-   "first_season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "first_season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "active": true,
-   "created_at": "2026-11-24T00:25:39.904275+00:00"
+   "created_at": "2026-11-24T00:51:20.028341+00:00"
   },
   {
-   "id": "363923c9-0f52-418c-a274-0a9b5167d98b",
+   "id": "6917a5e6-fbdf-418d-9218-cf1cb628e943",
    "display_name": "Slipstream Sam",
    "team_name": "Basement Bullets",
    "in_game_car": "Williams",
    "team_color": "#005AFF",
    "avatar_url": null,
    "photo_url": null,
-   "first_season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "first_season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "active": true,
-   "created_at": "2026-11-24T00:25:39.904275+00:00"
+   "created_at": "2026-11-24T00:51:20.028341+00:00"
   },
   {
-   "id": "35c02163-c8cd-4ac5-a427-d8819c663a72",
+   "id": "69bbdf06-1eac-4626-a130-7bfefb6b08f4",
    "display_name": "Turbo Taco",
    "team_name": "Salsa Speed",
    "in_game_car": "Ferrari",
    "team_color": "#DC0000",
    "avatar_url": null,
    "photo_url": null,
-   "first_season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "first_season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "active": true,
-   "created_at": "2026-11-24T00:25:39.904275+00:00"
+   "created_at": "2026-11-24T00:51:20.028341+00:00"
   }
  ],
  "season_drivers": [
   {
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "7aad4d56-0e7f-471f-96b4-3ac7520d03c6"
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "54cb71df-e917-4f22-8997-861b7b4468bc"
   },
   {
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "35c02163-c8cd-4ac5-a427-d8819c663a72"
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "69bbdf06-1eac-4626-a130-7bfefb6b08f4"
   },
   {
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "e1553910-d25f-4ca0-9d59-ba18a43afe7e"
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "304417b1-0eec-4269-9d71-f8ef07f40dad"
   },
   {
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "d1512f32-0bee-4603-b1ea-f0dfd7eed901"
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "06f26d0b-7b04-4edd-8009-36d3e64d9884"
   },
   {
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "6fc1e5fb-43a2-4fe4-af0f-5e93dbbade86"
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "0e4155cb-a70c-4b9a-820f-eb4d330798f7"
   },
   {
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "363923c9-0f52-418c-a274-0a9b5167d98b"
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "6917a5e6-fbdf-418d-9218-cf1cb628e943"
   }
  ],
  "races": [
   {
-   "id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "round": 1,
-   "track_id": "71300e0a-815c-48bb-b9be-8e5709bdf9c0",
+   "track_id": "85abdc1a-a09b-497f-b6b0-953edf658fd4",
    "race_date": "2026-12-05",
    "status": "finalized",
-   "finalized_at": "2026-11-24T00:25:39.911823+00:00"
+   "finalized_at": "2026-11-24T00:51:20.033262+00:00"
   },
   {
-   "id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "round": 2,
-   "track_id": "8579780e-4ef6-4693-8f6c-2dccdf2bc8a5",
+   "track_id": "7a823af1-60e5-4dcf-8d4c-b3e888e2246c",
    "race_date": "2026-12-12",
    "status": "finalized",
-   "finalized_at": "2026-11-24T00:25:39.911823+00:00"
+   "finalized_at": "2026-11-24T00:51:20.033262+00:00"
   },
   {
-   "id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "round": 3,
-   "track_id": "451a310c-1ef2-43c1-96bd-c3f5bf902e27",
+   "track_id": "d1f6cdfe-0947-4028-87d4-bee9b4080f40",
    "race_date": "2026-12-19",
    "status": "live",
    "finalized_at": null
   },
   {
-   "id": "7e994e33-f20f-4d9d-853c-c4723349ecd6",
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "9cdeb807-5a19-4806-bb48-2a94ee04d26e",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "round": 4,
-   "track_id": "c67f1a4e-3bfc-4700-97df-1828950e57e7",
+   "track_id": "2775637f-3127-41e0-bcc3-c4053840dacf",
    "race_date": "2027-01-09",
    "status": "scheduled",
    "finalized_at": null
   },
   {
-   "id": "be44d415-3a34-4efe-a6bc-1f7404e68b0c",
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "32aa4343-f756-4d22-a118-fea2553f0d5f",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "round": 5,
-   "track_id": "cdf3fc06-71d0-4448-9243-586c39f60aff",
+   "track_id": "4f7c9a24-e8a3-4959-8bfd-6b86aadd32d8",
    "race_date": "2027-01-16",
    "status": "scheduled",
    "finalized_at": null
   },
   {
-   "id": "51a276c9-4a51-4965-97a4-1df6adc779a5",
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
+   "id": "70516510-10d2-4ce7-8f74-13ab36892b5e",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
    "round": 6,
-   "track_id": "fc738e35-c9ab-4951-9833-e844218bd23a",
+   "track_id": "2c7d0a5d-4b24-4d56-b7ff-6098da510821",
    "race_date": "2027-01-23",
    "status": "scheduled",
    "finalized_at": null
@@ -371,8 +395,8 @@
  ],
  "race_leaderboard": [
   {
-   "race_id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "driver_id": "6fc1e5fb-43a2-4fe4-af0f-5e93dbbade86",
+   "race_id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "driver_id": "0e4155cb-a70c-4b9a-820f-eb4d330798f7",
    "display_name": "Rocket Rex",
    "team_name": "Dino Motorsport",
    "team_color": "#006F62",
@@ -387,13 +411,13 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.925121+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.042532+00:00",
    "final_position": 6,
    "points": 3
   },
   {
-   "race_id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "driver_id": "d1512f32-0bee-4603-b1ea-f0dfd7eed901",
+   "race_id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "driver_id": "06f26d0b-7b04-4edd-8009-36d3e64d9884",
    "display_name": "Drift Queen",
    "team_name": "Purple Sector",
    "team_color": "#00D2BE",
@@ -408,13 +432,13 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.92511+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.042522+00:00",
    "final_position": 5,
    "points": 4
   },
   {
-   "race_id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "driver_id": "363923c9-0f52-418c-a274-0a9b5167d98b",
+   "race_id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "driver_id": "6917a5e6-fbdf-418d-9218-cf1cb628e943",
    "display_name": "Slipstream Sam",
    "team_name": "Basement Bullets",
    "team_color": "#005AFF",
@@ -429,13 +453,13 @@
    "state": "done",
    "is_newest": true,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.925131+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.04254+00:00",
    "final_position": 3,
    "points": 6
   },
   {
-   "race_id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "driver_id": "35c02163-c8cd-4ac5-a427-d8819c663a72",
+   "race_id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "driver_id": "69bbdf06-1eac-4626-a130-7bfefb6b08f4",
    "display_name": "Turbo Taco",
    "team_name": "Salsa Speed",
    "team_color": "#DC0000",
@@ -450,13 +474,13 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.92508+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.042491+00:00",
    "final_position": 1,
    "points": 10
   },
   {
-   "race_id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "driver_id": "e1553910-d25f-4ca0-9d59-ba18a43afe7e",
+   "race_id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "driver_id": "304417b1-0eec-4269-9d71-f8ef07f40dad",
    "display_name": "Lightning Lou",
    "team_name": "Thunder Garage",
    "team_color": "#1E41FF",
@@ -471,13 +495,13 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.925094+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.042509+00:00",
    "final_position": 4,
    "points": 5
   },
   {
-   "race_id": "7ab1bbc4-bb7b-496e-8727-b1403ef5f919",
-   "driver_id": "7aad4d56-0e7f-471f-96b4-3ac7520d03c6",
+   "race_id": "0cbe571b-92de-41c9-8bd4-5d0890f65f87",
+   "driver_id": "54cb71df-e917-4f22-8997-861b7b4468bc",
    "display_name": "Captain Apex",
    "team_name": "Pit Lane Pirates",
    "team_color": "#FF8000",
@@ -492,13 +516,139 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.925048+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.042417+00:00",
    "final_position": 2,
    "points": 8
   },
   {
-   "race_id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "driver_id": "6fc1e5fb-43a2-4fe4-af0f-5e93dbbade86",
+   "race_id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "driver_id": "69bbdf06-1eac-4626-a130-7bfefb6b08f4",
+   "display_name": "Turbo Taco",
+   "team_name": "Salsa Speed",
+   "team_color": "#DC0000",
+   "avatar_url": null,
+   "run_order": 1,
+   "best_lap_ms": 88950,
+   "penalty_ms": 0,
+   "effective_ms": 88950,
+   "dnf": false,
+   "position": 3,
+   "gap_to_leader_ms": 1538,
+   "state": "done",
+   "is_newest": false,
+   "is_up_next": false,
+   "time_entered_at": "2026-11-24T00:51:20.038252+00:00",
+   "final_position": 3,
+   "points": 6
+  },
+  {
+   "race_id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "driver_id": "6917a5e6-fbdf-418d-9218-cf1cb628e943",
+   "display_name": "Slipstream Sam",
+   "team_name": "Basement Bullets",
+   "team_color": "#005AFF",
+   "avatar_url": null,
+   "run_order": 2,
+   "best_lap_ms": 89114,
+   "penalty_ms": 0,
+   "effective_ms": 89114,
+   "dnf": false,
+   "position": 4,
+   "gap_to_leader_ms": 1702,
+   "state": "done",
+   "is_newest": true,
+   "is_up_next": false,
+   "time_entered_at": "2026-11-24T00:51:20.038295+00:00",
+   "final_position": 4,
+   "points": 5
+  },
+  {
+   "race_id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "driver_id": "0e4155cb-a70c-4b9a-820f-eb4d330798f7",
+   "display_name": "Rocket Rex",
+   "team_name": "Dino Motorsport",
+   "team_color": "#006F62",
+   "avatar_url": null,
+   "run_order": 3,
+   "best_lap_ms": null,
+   "penalty_ms": 0,
+   "effective_ms": null,
+   "dnf": true,
+   "position": null,
+   "gap_to_leader_ms": null,
+   "state": "dnf",
+   "is_newest": false,
+   "is_up_next": false,
+   "time_entered_at": "2026-11-24T00:51:20.038286+00:00",
+   "final_position": null,
+   "points": 0
+  },
+  {
+   "race_id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "driver_id": "304417b1-0eec-4269-9d71-f8ef07f40dad",
+   "display_name": "Lightning Lou",
+   "team_name": "Thunder Garage",
+   "team_color": "#1E41FF",
+   "avatar_url": null,
+   "run_order": 4,
+   "best_lap_ms": 87905,
+   "penalty_ms": 0,
+   "effective_ms": 87905,
+   "dnf": false,
+   "position": 2,
+   "gap_to_leader_ms": 493,
+   "state": "done",
+   "is_newest": false,
+   "is_up_next": false,
+   "time_entered_at": "2026-11-24T00:51:20.038264+00:00",
+   "final_position": 2,
+   "points": 8
+  },
+  {
+   "race_id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "driver_id": "54cb71df-e917-4f22-8997-861b7b4468bc",
+   "display_name": "Captain Apex",
+   "team_name": "Pit Lane Pirates",
+   "team_color": "#FF8000",
+   "avatar_url": null,
+   "run_order": 5,
+   "best_lap_ms": 87412,
+   "penalty_ms": 0,
+   "effective_ms": 87412,
+   "dnf": false,
+   "position": 1,
+   "gap_to_leader_ms": 0,
+   "state": "done",
+   "is_newest": false,
+   "is_up_next": false,
+   "time_entered_at": "2026-11-24T00:51:20.038216+00:00",
+   "final_position": 1,
+   "points": 10
+  },
+  {
+   "race_id": "36ecd234-bd16-477e-b9bb-b27dd57b641f",
+   "driver_id": "06f26d0b-7b04-4edd-8009-36d3e64d9884",
+   "display_name": "Drift Queen",
+   "team_name": "Purple Sector",
+   "team_color": "#00D2BE",
+   "avatar_url": null,
+   "run_order": 6,
+   "best_lap_ms": 90233,
+   "penalty_ms": 0,
+   "effective_ms": 90233,
+   "dnf": false,
+   "position": 5,
+   "gap_to_leader_ms": 2821,
+   "state": "done",
+   "is_newest": false,
+   "is_up_next": false,
+   "time_entered_at": "2026-11-24T00:51:20.038274+00:00",
+   "final_position": 5,
+   "points": 4
+  },
+  {
+   "race_id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "driver_id": "0e4155cb-a70c-4b9a-820f-eb4d330798f7",
    "display_name": "Rocket Rex",
    "team_name": "Dino Motorsport",
    "team_color": "#006F62",
@@ -513,13 +663,13 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.927857+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.044738+00:00",
    "final_position": null,
    "points": null
   },
   {
-   "race_id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "driver_id": "d1512f32-0bee-4603-b1ea-f0dfd7eed901",
+   "race_id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "driver_id": "06f26d0b-7b04-4edd-8009-36d3e64d9884",
    "display_name": "Drift Queen",
    "team_name": "Purple Sector",
    "team_color": "#00D2BE",
@@ -534,13 +684,13 @@
    "state": "done",
    "is_newest": false,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.927889+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.044765+00:00",
    "final_position": null,
    "points": null
   },
   {
-   "race_id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "driver_id": "363923c9-0f52-418c-a274-0a9b5167d98b",
+   "race_id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "driver_id": "6917a5e6-fbdf-418d-9218-cf1cb628e943",
    "display_name": "Slipstream Sam",
    "team_name": "Basement Bullets",
    "team_color": "#005AFF",
@@ -555,13 +705,13 @@
    "state": "done",
    "is_newest": true,
    "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.927899+00:00",
+   "time_entered_at": "2026-11-24T00:51:20.044774+00:00",
    "final_position": null,
    "points": null
   },
   {
-   "race_id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "driver_id": "e1553910-d25f-4ca0-9d59-ba18a43afe7e",
+   "race_id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "driver_id": "304417b1-0eec-4269-9d71-f8ef07f40dad",
    "display_name": "Lightning Lou",
    "team_name": "Thunder Garage",
    "team_color": "#1E41FF",
@@ -581,8 +731,8 @@
    "points": null
   },
   {
-   "race_id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "driver_id": "35c02163-c8cd-4ac5-a427-d8819c663a72",
+   "race_id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "driver_id": "69bbdf06-1eac-4626-a130-7bfefb6b08f4",
    "display_name": "Turbo Taco",
    "team_name": "Salsa Speed",
    "team_color": "#DC0000",
@@ -602,8 +752,8 @@
    "points": null
   },
   {
-   "race_id": "aecf6987-0744-43c8-9996-41cc9e542825",
-   "driver_id": "7aad4d56-0e7f-471f-96b4-3ac7520d03c6",
+   "race_id": "b7b05f5c-0cf3-4e80-aafe-b09fff3b114c",
+   "driver_id": "54cb71df-e917-4f22-8997-861b7b4468bc",
    "display_name": "Captain Apex",
    "team_name": "Pit Lane Pirates",
    "team_color": "#FF8000",
@@ -621,139 +771,13 @@
    "time_entered_at": null,
    "final_position": null,
    "points": null
-  },
-  {
-   "race_id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "driver_id": "7aad4d56-0e7f-471f-96b4-3ac7520d03c6",
-   "display_name": "Captain Apex",
-   "team_name": "Pit Lane Pirates",
-   "team_color": "#FF8000",
-   "avatar_url": null,
-   "run_order": 1,
-   "best_lap_ms": 87412,
-   "penalty_ms": 0,
-   "effective_ms": 87412,
-   "dnf": false,
-   "position": 1,
-   "gap_to_leader_ms": 0,
-   "state": "done",
-   "is_newest": false,
-   "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.920255+00:00",
-   "final_position": 1,
-   "points": 10
-  },
-  {
-   "race_id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "driver_id": "35c02163-c8cd-4ac5-a427-d8819c663a72",
-   "display_name": "Turbo Taco",
-   "team_name": "Salsa Speed",
-   "team_color": "#DC0000",
-   "avatar_url": null,
-   "run_order": 2,
-   "best_lap_ms": 88950,
-   "penalty_ms": 0,
-   "effective_ms": 88950,
-   "dnf": false,
-   "position": 3,
-   "gap_to_leader_ms": 1538,
-   "state": "done",
-   "is_newest": false,
-   "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.920317+00:00",
-   "final_position": 3,
-   "points": 6
-  },
-  {
-   "race_id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "driver_id": "363923c9-0f52-418c-a274-0a9b5167d98b",
-   "display_name": "Slipstream Sam",
-   "team_name": "Basement Bullets",
-   "team_color": "#005AFF",
-   "avatar_url": null,
-   "run_order": 3,
-   "best_lap_ms": 89114,
-   "penalty_ms": 0,
-   "effective_ms": 89114,
-   "dnf": false,
-   "position": 4,
-   "gap_to_leader_ms": 1702,
-   "state": "done",
-   "is_newest": true,
-   "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.920378+00:00",
-   "final_position": 4,
-   "points": 5
-  },
-  {
-   "race_id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "driver_id": "e1553910-d25f-4ca0-9d59-ba18a43afe7e",
-   "display_name": "Lightning Lou",
-   "team_name": "Thunder Garage",
-   "team_color": "#1E41FF",
-   "avatar_url": null,
-   "run_order": 4,
-   "best_lap_ms": 87905,
-   "penalty_ms": 0,
-   "effective_ms": 87905,
-   "dnf": false,
-   "position": 2,
-   "gap_to_leader_ms": 493,
-   "state": "done",
-   "is_newest": false,
-   "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.920335+00:00",
-   "final_position": 2,
-   "points": 8
-  },
-  {
-   "race_id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "driver_id": "6fc1e5fb-43a2-4fe4-af0f-5e93dbbade86",
-   "display_name": "Rocket Rex",
-   "team_name": "Dino Motorsport",
-   "team_color": "#006F62",
-   "avatar_url": null,
-   "run_order": 5,
-   "best_lap_ms": null,
-   "penalty_ms": 0,
-   "effective_ms": null,
-   "dnf": true,
-   "position": null,
-   "gap_to_leader_ms": null,
-   "state": "dnf",
-   "is_newest": false,
-   "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.920367+00:00",
-   "final_position": null,
-   "points": 0
-  },
-  {
-   "race_id": "d6f0646a-7af3-4660-8a09-b0fd9e2e6e10",
-   "driver_id": "d1512f32-0bee-4603-b1ea-f0dfd7eed901",
-   "display_name": "Drift Queen",
-   "team_name": "Purple Sector",
-   "team_color": "#00D2BE",
-   "avatar_url": null,
-   "run_order": 6,
-   "best_lap_ms": 90233,
-   "penalty_ms": 0,
-   "effective_ms": 90233,
-   "dnf": false,
-   "position": 5,
-   "gap_to_leader_ms": 2821,
-   "state": "done",
-   "is_newest": false,
-   "is_up_next": false,
-   "time_entered_at": "2026-11-24T00:25:39.920351+00:00",
-   "final_position": 5,
-   "points": 4
   }
  ],
  "season_standings": [
   {
    "position": 1,
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "7aad4d56-0e7f-471f-96b4-3ac7520d03c6",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "54cb71df-e917-4f22-8997-861b7b4468bc",
    "points": 18,
    "wins": 1,
    "seconds": 1,
@@ -767,8 +791,8 @@
   },
   {
    "position": 2,
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "35c02163-c8cd-4ac5-a427-d8819c663a72",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "69bbdf06-1eac-4626-a130-7bfefb6b08f4",
    "points": 16,
    "wins": 1,
    "seconds": 0,
@@ -782,8 +806,8 @@
   },
   {
    "position": 3,
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "e1553910-d25f-4ca0-9d59-ba18a43afe7e",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "304417b1-0eec-4269-9d71-f8ef07f40dad",
    "points": 13,
    "wins": 0,
    "seconds": 1,
@@ -797,8 +821,8 @@
   },
   {
    "position": 4,
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "363923c9-0f52-418c-a274-0a9b5167d98b",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "6917a5e6-fbdf-418d-9218-cf1cb628e943",
    "points": 11,
    "wins": 0,
    "seconds": 0,
@@ -812,8 +836,8 @@
   },
   {
    "position": 5,
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "d1512f32-0bee-4603-b1ea-f0dfd7eed901",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "06f26d0b-7b04-4edd-8009-36d3e64d9884",
    "points": 8,
    "wins": 0,
    "seconds": 0,
@@ -827,8 +851,8 @@
   },
   {
    "position": 6,
-   "season_id": "4b859daa-664b-4f07-ae98-346b762687f9",
-   "driver_id": "6fc1e5fb-43a2-4fe4-af0f-5e93dbbade86",
+   "season_id": "abf4e818-1556-4295-8f68-3e3fbf030237",
+   "driver_id": "0e4155cb-a70c-4b9a-820f-eb4d330798f7",
    "points": 3,
    "wins": 0,
    "seconds": 0,

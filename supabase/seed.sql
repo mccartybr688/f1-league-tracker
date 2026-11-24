@@ -1,6 +1,6 @@
 -- =====================================================================
--- F1 Family League — sample data (made-up drivers, safe for a demo)
--- Run after 0001_schema.sql. Season 1: rounds 1-2 finalized,
+-- F1 League Tracker — sample data (made-up drivers, safe for a demo)
+-- Run after the migrations (0001, 0002). Season 1: rounds 1-2 finalized,
 -- round 3 live with some times in, rounds 4-6 scheduled.
 -- =====================================================================
 
@@ -109,3 +109,18 @@ begin
 end $$;
 
 drop table sample_times;
+
+-- Track outlines (same mapping as migration 0002, for fresh databases).
+update public.tracks t set circuit_id = v.circuit_id
+from (values
+  ('Albert Park','au-1953'), ('Shanghai','cn-2004'), ('Suzuka','jp-1962'),
+  ('Bahrain','bh-2002'), ('Jeddah','sa-2021'), ('Miami','us-2022'),
+  ('Imola','it-1953'), ('Monaco','mc-1929'), ('Barcelona-Catalunya','es-1991'),
+  ('Montreal','ca-1978'), ('Red Bull Ring','at-1969'), ('Silverstone','gb-1948'),
+  ('Spa-Francorchamps','be-1925'), ('Hungaroring','hu-1986'), ('Zandvoort','nl-1948'),
+  ('Monza','it-1922'), ('Baku','az-2016'), ('Marina Bay','sg-2008'),
+  ('Circuit of the Americas','us-2012'), ('Mexico City','mx-1962'),
+  ('Interlagos','br-1940'), ('Las Vegas','us-2023'), ('Lusail','qa-2004'),
+  ('Yas Marina','ae-2009')
+) as v(name, circuit_id)
+where t.name = v.name;

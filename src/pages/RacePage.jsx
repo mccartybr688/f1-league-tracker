@@ -3,6 +3,8 @@ import { getRace } from '../data/api'
 import { useLoad } from '../lib/useLoad'
 import { flag, formatDate, formatGap, formatLap } from '../lib/format'
 import { Avatar, DriverLink, ErrorNote, Loading, StatusPill } from '../components/ui'
+import StartLights from '../components/StartLights'
+import TrackOutline from '../components/TrackOutline'
 
 export default function RacePage() {
   const { id } = useParams()
@@ -20,17 +22,21 @@ export default function RacePage() {
         ← {race.season?.name ?? 'Season'}
       </Link>
 
-      <header className="page-head">
-        <div>
-          <p className="eyebrow">
-            Round {race.round} · {formatDate(race.race_date)}
-          </p>
-          <h1>
-            <span className="flag">{flag(race.track.country_code)}</span> {race.track.name}
-          </h1>
-          <p className="muted">{race.track.grand_prix}</p>
+      <header className="card race-banner">
+        <StartLights status={race.status} />
+        <div className="race-banner__body">
+          <div className="race-banner__text">
+            <p className="eyebrow">
+              Round {race.round} · {formatDate(race.race_date)}
+            </p>
+            <h1>
+              <span className="flag">{flag(race.track.country_code)}</span> {race.track.name}
+            </h1>
+            <p className="muted">{race.track.grand_prix}</p>
+            <StatusPill status={race.status} />
+          </div>
+          <TrackOutline circuitId={race.track.circuit_id} name={race.track.name} />
         </div>
-        <StatusPill status={race.status} />
       </header>
 
       <section className="card">

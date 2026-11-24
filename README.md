@@ -35,6 +35,8 @@ Built for a league where everyone races the same track one at a time on a single
 
 League rules are in [`docs/rules.md`](docs/rules.md).
 
+Track outlines come from the open [f1-circuits](https://github.com/bacinger/f1-circuits) dataset (MIT); see [`docs/THIRD_PARTY.md`](docs/THIRD_PARTY.md).
+
 ## Run it yourself
 
 **Demo mode (no setup):**
@@ -47,7 +49,7 @@ With no `.env`, the app uses `src/data/demo-data.json`, a snapshot exported from
 **With your own Supabase project:**
 
 1. Create a free Supabase project.
-2. In the SQL Editor, run `supabase/migrations/0001_schema.sql`, then `supabase/seed.sql` for demo data.
+2. In the SQL Editor, run the files in `supabase/migrations/` in order, then `supabase/seed.sql` for demo data.
 3. Create a user under **Authentication → Users**, then make it the admin:
    ```sql
    insert into public.admins (user_id) values ('<user-uuid>');
