@@ -6,6 +6,8 @@ import { Avatar, DriverLink, ErrorNote, Loading, StatusPill } from '../component
 import StartLights from '../components/StartLights'
 import TrackOutline from '../components/TrackOutline'
 import TrackFacts from '../components/TrackFacts'
+import ElevationProfile from '../components/ElevationProfile'
+import LapRecord from '../components/LapRecord'
 
 export default function RacePage() {
   const { id } = useParams()
@@ -44,6 +46,19 @@ export default function RacePage() {
         </div>
         <TrackFacts track={race.track} />
       </header>
+
+      <section className="grid-track">
+        <article className="card">
+          <h2 className="section-title">Lap profile</h2>
+          <ElevationProfile track={race.track} />
+        </article>
+        {race.track.record_ms && (
+          <article className="card">
+            <h2 className="section-title">Lap record</h2>
+            <LapRecord track={race.track} />
+          </article>
+        )}
+      </section>
 
       {race.status === 'scheduled' ? (
         <section className="card">

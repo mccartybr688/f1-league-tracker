@@ -3,6 +3,7 @@ import { getDriver, getSeasons, pickCurrentSeason } from '../data/api'
 import { useLoad } from '../lib/useLoad'
 import { flag, formatGap, formatLap, ordinal } from '../lib/format'
 import { Avatar, ErrorNote, Loading, RookieBadge } from '../components/ui'
+import CarSide, { TEAM_COLORS } from '../components/CarSide'
 
 export default function DriverPage() {
   const { id } = useParams()
@@ -39,7 +40,7 @@ export default function DriverPage() {
 
       <header className="card profile" style={{ '--team': driver.team_color ?? '#6b7280' }}>
         <Avatar driver={driver} size={112} />
-        <div>
+        <div className="profile__main">
           <h1>
             {driver.display_name} {isRookie && <RookieBadge />}
           </h1>
@@ -55,6 +56,16 @@ export default function DriverPage() {
             </div>
           </dl>
         </div>
+        <figure className="profile__car">
+          <CarSide
+            team={driver.in_game_car}
+            color={TEAM_COLORS[driver.in_game_car?.toLowerCase()] ? undefined : driver.team_color}
+            title={`${driver.display_name}'s car: ${driver.in_game_car ?? 'team colours'}`}
+          />
+          <figcaption className="muted small">
+            {driver.in_game_car ? `Races the ${driver.in_game_car}` : 'Team colours'}
+          </figcaption>
+        </figure>
       </header>
 
       <section className="stats">

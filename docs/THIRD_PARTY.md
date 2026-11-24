@@ -26,3 +26,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Terrain Tiles (elevation profiles)
+
+Elevation profiles in `src/data/track-elevation.json` are derived from
+[Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) on the AWS Registry of Open Data.
+Attribution as requested by the dataset: data from SRTM (NASA), GMTED (USGS), ETOPO1 (NOAA),
+EU-DEM (Copernicus), and other national datasets listed at
+https://github.com/tilezen/joerd/blob/master/docs/attribution.md
