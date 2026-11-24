@@ -9,6 +9,8 @@ import TrackOutline from '../components/TrackOutline'
 import TrackFacts from '../components/TrackFacts'
 import ElevationProfile from '../components/ElevationProfile'
 import LapRecord from '../components/LapRecord'
+import TrackMap from '../components/TrackMap'
+import TrackGuide from '../components/TrackGuide'
 
 export default function RacePage() {
   const { id } = useParams()
@@ -48,17 +50,27 @@ export default function RacePage() {
         <TrackFacts track={race.track} />
       </header>
 
-      <section className="grid-track">
+      <section className="grid-guide">
         <article className="card">
-          <h2 className="section-title">Lap profile</h2>
-          <ElevationProfile track={race.track} />
+          <h2 className="section-title">Track map</h2>
+          <TrackMap circuitId={race.track.circuit_id} name={race.track.name} />
         </article>
-        {race.track.record_ms && (
+        <div className="stack">
           <article className="card">
-            <h2 className="section-title">Lap record</h2>
-            <LapRecord track={race.track} />
+            <TrackGuide track={race.track} />
           </article>
-        )}
+          {race.track.record_ms && (
+            <article className="card">
+              <h2 className="section-title">Lap record</h2>
+              <LapRecord track={race.track} />
+            </article>
+          )}
+        </div>
+      </section>
+
+      <section className="card">
+        <h2 className="section-title">Lap profile</h2>
+        <ElevationProfile track={race.track} />
       </section>
 
       {race.status === 'scheduled' ? (

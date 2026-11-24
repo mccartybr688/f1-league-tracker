@@ -1,10 +1,12 @@
+import { lazy, Suspense } from 'react'
 import { HashRouter, NavLink, Route, Routes } from 'react-router-dom'
 import AuthGate, { signOut } from './auth/AuthGate'
 import { isDemo } from './lib/supabase'
 import SeasonPage from './pages/SeasonPage'
 import DriversPage from './pages/DriversPage'
 import DriverPage from './pages/DriverPage'
-import RacePage from './pages/RacePage'
+// The race page carries the map/elevation data, so load it on demand.
+const RacePage = lazy(() => import('./pages/RacePage'))
 
 // HashRouter keeps deep links working on static hosts (GitHub Pages, Netlify).
 export default function App() {
@@ -30,6 +32,7 @@ export default function App() {
             </p>
           )}
           <main className="content">
+            <Suspense fallback={<p className="muted">Loading…</p>}>
             <Routes>
               <Route path="/" element={<SeasonPage />} />
               <Route path="/seasons/:number" element={<SeasonPage />} />
@@ -38,6 +41,7 @@ export default function App() {
               <Route path="/races/:id" element={<RacePage />} />
               <Route path="*" element={<p className="muted">Page not found.</p>} />
             </Routes>
+            </Suspense>
           </main>
         </div>
       </HashRouter>

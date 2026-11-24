@@ -33,7 +33,7 @@ from (values
   ('Zandvoort',               'Circuit Zandvoort',                       'Zandvoort',          4259, 14,  14.0, 1952),
   ('Monza',                   'Autodromo Nazionale Monza',               'Monza',              5793, 11,  12.8, 1950),
   ('Baku',                    'Baku City Circuit',                       'Baku',               6003, 20,  26.8, 2016),
-  ('Marina Bay',              'Marina Bay Street Circuit',               'Singapore',          5063, 23,   5.3, 2008),
+  ('Marina Bay',              'Marina Bay Street Circuit',               'Singapore',          5063, 19,   5.3, 2008),
   ('Circuit of the Americas', 'Circuit of the Americas',                 'Austin',             5513, 20,  30.9, 2012),
   ('Mexico City',             'Autódromo Hermanos Rodríguez',            'Mexico City',        4304, 17,   2.8, 1963),
   ('Interlagos',              'Autódromo José Carlos Pace',              'São Paulo',          4309, 15,  43.0, 1973),

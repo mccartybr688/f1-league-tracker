@@ -14,6 +14,7 @@ Built for a league where everyone races the same track one at a time on a single
 - [x] Rules enforced in the database: points, tie-breaks, running order, race locking
 - [x] Row-level security: signed-in viewers read, only the admin writes
 - [x] Season page, driver profiles and race results (Rookie badge in a driver's first season)
+- [x] Track guide: start-light header, speed-coloured map with numbered corners, lap elevation profile, track facts, lap record, write-ups
 - [ ] Admin time entry (DNF, penalties, typo fixes, finalize)
 - [ ] Live TV leaderboard: re-sorts as times arrive, gap to leader, newest-time highlight, who's up next
 - [ ] Standings and results by race

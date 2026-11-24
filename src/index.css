@@ -320,3 +320,25 @@ h1 svg.flag { width: 1.1em; }
   aspect-ratio: auto; object-fit: contain; background: none; border-radius: 0;
   max-height: 190px; filter: drop-shadow(0 10px 8px rgba(0,0,0,0.55));
 }
+
+/* Track map */
+.track-map { margin: 0; display: grid; gap: 8px; }
+.track-map svg { width: 100%; height: auto; max-height: 520px; display: block; }
+.track-map__base { fill: none; stroke: #2b303b; stroke-linecap: round; stroke-linejoin: round; }
+.track-map figcaption { display: grid; gap: 4px; }
+.track-map__legend { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 0.8rem; color: var(--muted); }
+.track-map__legend i { display: inline-block; width: 18px; height: 5px; border-radius: 3px; margin-right: -8px; }
+.profile__drop { stroke: #4b5260; stroke-width: 1; stroke-dasharray: 2 3; }
+.profile__turn { fill: var(--text); font-size: 11px; font-weight: 700; font-family: system-ui, sans-serif; }
+.profile__minmax { fill: #f0abfc; font-size: 10.5px; font-weight: 700; font-family: system-ui, sans-serif; }
+
+/* Track guide */
+.grid-guide { display: grid; gap: 20px; grid-template-columns: minmax(0, 7fr) minmax(260px, 5fr); align-items: start; }
+.guide { display: grid; gap: 16px; }
+.guide__h { margin: 0 0 6px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); }
+.guide p { line-height: 1.55; }
+.chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.chips li { background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; font-size: 0.85rem; }
+.guide__tip { background: #142019; border: 1px solid #1f5133; border-radius: 10px; padding: 12px 14px; }
+.guide__tip .guide__h { color: var(--green); }
+@media (max-width: 900px) { .grid-guide { grid-template-columns: 1fr; } }

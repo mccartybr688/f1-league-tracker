@@ -1,0 +1,123 @@
+{
+  "_about": "Original short guides for each circuit (not quotes). Keyed by circuit_id.",
+  "au-1953": {
+    "special": "A fast, flowing lap around Albert Park Lake in Melbourne, on roads that are open to the public for most of the year. The 2022 rework removed a chicane and turned the back of the lap into a quick left-right blast.",
+    "corners": ["Turns 1–2 (first-lap chaos)", "Turns 9–10 high-speed sweep", "Turns 11–12 chicane"],
+    "tip": "Grip is low early on because the roads are dusty: be gentle on the throttle out of the slow corners."
+  },
+  "cn-2004": {
+    "special": "Its outline is shaped like the Chinese character 上 (shàng). The lap opens with a corner that keeps tightening like a snail shell and features one of the longest straights on the calendar.",
+    "corners": ["Turns 1–2 snail-shell right-hander", "Back straight", "Turn 14 hairpin"],
+    "tip": "Turn 1 tightens much more than it looks: turn in late and wait for the second apex."
+  },
+  "jp-1962": {
+    "special": "The only figure-of-eight circuit in F1: the track crosses over itself on a bridge. Built by Honda as a test track, it is a driver favourite for its flowing, unforgiving corners.",
+    "corners": ["S Curves", "Degner", "Spoon", "130R", "Casio Triangle"],
+    "tip": "Rhythm through the S Curves matters more than speed: one early mistake costs you all the way to Degner."
+  },
+  "bh-2002": {
+    "special": "A desert circuit in Sakhir that hosted the first Middle East Grand Prix in 2004. It now races at night under floodlights, and its rough surface is hard on tyres.",
+    "corners": ["Turn 1 heavy braking", "Turn 4", "Turn 10 downhill hairpin"],
+    "tip": "Three big braking zones: brake in a straight line and protect your rear tyres on the exits."
+  },
+  "sa-2021": {
+    "special": "The fastest street circuit F1 has ever used, running along the Red Sea at night. It has 27 corners, the most on the calendar, and many of them are fast and blind between the walls.",
+    "corners": ["Turns 2–3 chicane", "High-speed esses (Turns 4–13)", "Turn 27 onto the main straight"],
+    "tip": "Commit through the fast esses but leave a margin: the walls are very close and you can't see the exits."
+  },
+  "us-2022": {
+    "special": "Built around the Hard Rock Stadium in Miami Gardens, complete with a famous fake marina. It mixes long straights with a tight, low-speed section under a motorway overpass.",
+    "corners": ["Turns 4–6 fast flick", "Turns 14–15 slow chicane", "Turn 17 hairpin"],
+    "tip": "The slow chicane at Turns 14–15 is where laps are lost: brake early and take it smoothly."
+  },
+  "it-1953": {
+    "special": "An old-school, anticlockwise circuit near Bologna named after Enzo Ferrari and his son Dino. Narrow, fast and lined with gravel, it rewards precision.",
+    "corners": ["Tamburello", "Tosa", "Piratella", "Acque Minerali", "Variante Alta", "Rivazza"],
+    "tip": "Kerbs bite here: stay off the big sausage kerbs at Variante Alta or you'll launch the car."
+  },
+  "mc-1929": {
+    "special": "The streets of Monte Carlo: the slowest, narrowest and most famous track in F1. Overtaking is almost impossible, so qualifying decides most races.",
+    "corners": ["Sainte Dévote", "Casino", "Mirabeau", "Grand Hotel Hairpin", "Tunnel", "Swimming Pool", "Rascasse"],
+    "tip": "Build up speed lap by lap: a clean lap beats a fast-but-scruffy one. The hairpin is the slowest corner in F1."
+  },
+  "es-1991": {
+    "special": "Near Barcelona in Montmeló, long used for pre-season testing, so teams know every bump. Since 2023 the final chicane is gone, so the last corners are fast again.",
+    "corners": ["Turn 1 (Elf)", "Turn 3 long right-hander", "Campsa", "La Caixa", "Final corners"],
+    "tip": "Turn 3 is long and loads the front tyres: be patient with the throttle so the car doesn't push wide."
+  },
+  "ca-1978": {
+    "special": "On a man-made island in Montreal's St Lawrence River. A stop-start lap of straights, chicanes and heavy braking, finishing past the famous Wall of Champions.",
+    "corners": ["Turns 1–2", "Hairpin (Turn 10)", "Final chicane and the Wall of Champions"],
+    "tip": "Ride the kerbs in the chicanes, but give the last chicane's exit wall a few centimetres of respect."
+  },
+  "at-1969": {
+    "special": "A short, hilly lap in the Styrian mountains with only ten corners, so lap times are among the shortest of the year. Three long uphill drags make slipstreaming and late braking key.",
+    "corners": ["Turn 1 (uphill)", "Remus (Turn 3)", "Turn 4 downhill", "Rindt"],
+    "tip": "Track limits are strict on the final two corners: keep all four wheels inside the white lines."
+  },
+  "gb-1948": {
+    "special": "Built on a former WWII airfield, Silverstone hosted the first ever World Championship race in 1950. Its fast sweeping corners are some of the best in the world.",
+    "corners": ["Copse", "Maggotts–Becketts–Chapel", "Stowe", "Club", "Luffield"],
+    "tip": "Maggotts and Becketts are about flow: a smooth line with small steering inputs is faster than braking."
+  },
+  "be-1925": {
+    "special": "The longest lap of the year at 7 km, through the Ardennes forest. Big hills, the legendary Eau Rouge–Raidillon climb, and weather that can be dry on one side and raining on the other.",
+    "corners": ["La Source", "Eau Rouge–Raidillon", "Les Combes", "Pouhon", "Blanchimont", "Bus Stop"],
+    "tip": "Get a great exit from La Source: it decides your speed all the way up Eau Rouge and the Kemmel Straight."
+  },
+  "hu-1986": {
+    "special": "Near Budapest, the first Grand Prix held behind the Iron Curtain (1986). Twisty and tight, often called \"Monaco without the walls\", and usually very hot.",
+    "corners": ["Turn 1 downhill hairpin", "Turn 4 blind crest", "Turns 6–7 chicane", "Turn 11"],
+    "tip": "There's barely a straight to recover on, so keep the car tidy and avoid wheelspin out of the slow corners."
+  },
+  "nl-1948": {
+    "special": "Carved into the sand dunes beside the North Sea, Zandvoort returned to F1 in 2021 with steeply banked corners. It's narrow, undulating and hard to overtake on.",
+    "corners": ["Tarzan (Turn 1)", "Hugenholtz banking", "Scheivlak", "Arie Luyendyk banking"],
+    "tip": "Use the banking: you can carry far more speed through Hugenholtz and the final corner than it looks."
+  },
+  "it-1922": {
+    "special": "The \"Temple of Speed\" in Monza's royal park: the fastest lap of the year, with cars in their lowest-downforce trim. The old banked oval still stands in the trees.",
+    "corners": ["Variante del Rettifilo", "Curva Grande", "Lesmo 1 and 2", "Ascari", "Parabolica"],
+    "tip": "Most of the lap is flat out: the time is in braking late and straight for the chicanes."
+  },
+  "az-2016": {
+    "special": "A street race through Baku that squeezes past the old city walls in a narrow uphill castle section, then opens onto one of the longest flat-out runs in F1 along the seafront.",
+    "corners": ["Turn 1", "Castle section (Turns 8–12)", "Turn 16 onto the long straight"],
+    "tip": "The castle section is barely two cars wide: brake early, hit your marks, and live to use the straight."
+  },
+  "sg-2008": {
+    "special": "F1's first night race (2008), run anticlockwise through Marina Bay. Hot, humid and bumpy, it's one of the toughest races physically and often runs close to the two-hour limit.",
+    "corners": ["Turn 1 (Sheares)", "Turn 7 (Memorial)", "Anderson Bridge", "Turns 16–17"],
+    "tip": "It's a long, demanding lap: consistency beats heroics. Clip the kerbs gently, the bumps unsettle the car."
+  },
+  "us-2012": {
+    "special": "In Austin, the first track built for F1 in the US. Its signature is a steep climb up to a hairpin at Turn 1, and it borrows ideas from famous corners at other circuits.",
+    "corners": ["Turn 1 uphill hairpin", "Esses (Turns 3–6)", "Turn 11 hairpin", "Stadium section"],
+    "tip": "Turn 1 is uphill, so you can brake later than you think: and take a wide line to set up the exit."
+  },
+  "mx-1962": {
+    "special": "Named after the racing Rodríguez brothers and sitting about 2,200 m above sea level. The thin air means less downforce and record top speeds, and the lap ends through a packed baseball stadium.",
+    "corners": ["Turn 1 after the long run", "Esses (Turns 7–11)", "Foro Sol stadium section"],
+    "tip": "Less air means less grip: brake a little earlier than usual and expect the car to slide."
+  },
+  "br-1940": {
+    "special": "Interlagos means \"between lakes\". An anticlockwise, hilly lap in São Paulo that famously produces dramatic races, opening with the Senna S.",
+    "corners": ["Senna S", "Curva do Sol", "Descida do Lago", "Junção", "Subida dos Boxes"],
+    "tip": "A good exit from Junção sets up the long uphill drag to the line: that's where overtakes start."
+  },
+  "us-2023": {
+    "special": "A Saturday-night race on the Las Vegas Strip, past the casinos and the Sphere. Long straights, cold temperatures and low grip make tyre warm-up the big challenge.",
+    "corners": ["Turn 1", "Turns 12–14 by the Sphere", "The Strip straight"],
+    "tip": "Cold track, low grip: warm the tyres properly and be gentle on the throttle out of the slow corners."
+  },
+  "qa-2004": {
+    "special": "Built for MotoGP, Lusail is a run of fast, flowing medium- and high-speed corners under floodlights, making it one of the most physically demanding races for drivers.",
+    "corners": ["Turn 1", "Turns 12–14 fast sweep", "Final corner"],
+    "tip": "Flow matters more than braking here: keep your minimum speeds up through the long sweeping corners."
+  },
+  "ae-2009": {
+    "special": "A twilight race at Yas Marina, often the season finale, that runs through the hotel and alongside the marina. A 2021 redesign removed tight chicanes to help overtaking.",
+    "corners": ["Turn 5 hairpin", "Turn 9 (after the back straight)", "Hotel section"],
+    "tip": "Nail the Turn 5 hairpin exit: it leads onto the long back straight where you can attack."
+  }
+}
