@@ -38,3 +38,16 @@ export function ordinal(n) {
   const v = n % 100
   return n + (s[(v - 20) % 10] || s[v] || s[0])
 }
+
+/** 5807 -> { km: "5.807 km", mi: "3.608 mi" } */
+export function formatLength(m) {
+  if (m == null) return null
+  return { km: `${(m / 1000).toFixed(3)} km`, mi: `${(m / 1609.344).toFixed(3)} mi` }
+}
+
+/** 40.4 -> { m: "40 m", ft: "133 ft" } (one decimal under 10 m) */
+export function formatHeight(m) {
+  if (m == null) return null
+  const n = Number(m)
+  return { m: `${n < 10 ? n.toFixed(1) : Math.round(n)} m`, ft: `${Math.round(n * 3.28084)} ft` }
+}

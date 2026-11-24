@@ -5,6 +5,7 @@ import { flag, formatDate, formatGap, formatLap } from '../lib/format'
 import { Avatar, DriverLink, ErrorNote, Loading, StatusPill } from '../components/ui'
 import StartLights from '../components/StartLights'
 import TrackOutline from '../components/TrackOutline'
+import TrackFacts from '../components/TrackFacts'
 
 export default function RacePage() {
   const { id } = useParams()
@@ -32,13 +33,26 @@ export default function RacePage() {
             <h1>
               <span className="flag">{flag(race.track.country_code)}</span> {race.track.name}
             </h1>
-            <p className="muted">{race.track.grand_prix}</p>
+            <p>{race.track.grand_prix}</p>
+            <p className="muted small">
+              {race.track.official_name ?? race.track.name}
+              {race.track.city && <> · 📍 {race.track.city}, {race.track.country}</>}
+            </p>
             <StatusPill status={race.status} />
           </div>
           <TrackOutline circuitId={race.track.circuit_id} name={race.track.name} />
         </div>
+        <TrackFacts track={race.track} />
       </header>
 
+      {race.status === 'scheduled' ? (
+        <section className="card">
+          <p className="muted">
+            No times yet. The running order is set on race day from the current standings,
+            with the championship leader running last.
+          </p>
+        </section>
+      ) : (
       <section className="card">
         <table className="table">
           <thead>
@@ -89,6 +103,7 @@ export default function RacePage() {
           </p>
         )}
       </section>
+      )}
     </div>
   )
 }

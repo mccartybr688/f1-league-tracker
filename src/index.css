@@ -252,3 +252,29 @@ button { font: inherit; }
   .track-outline { max-height: 160px; }
   .gantry__label { display: none; }
 }
+
+/* Track facts strip */
+.track-facts {
+  display: grid; grid-template-columns: repeat(4, 1fr); margin: 0;
+  border-top: 1px solid var(--border); background: #14171d;
+}
+.track-fact { padding: 14px 24px; display: grid; gap: 4px; align-content: start; }
+.track-fact + .track-fact { border-left: 1px solid var(--border); }
+.track-fact dt {
+  color: var(--muted); font-size: 0.7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.track-fact dd { margin: 0; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.track-fact__value { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.track-fact__sub { color: var(--muted); font-size: 0.85rem; }
+.elev-bar { height: 5px; border-radius: 3px; background: var(--surface-2); overflow: hidden; margin-top: 2px; }
+.elev-bar > span {
+  display: block; height: 100%; border-radius: 3px;
+  background: linear-gradient(90deg, #22c55e, #f5c542 55%, #e10600);
+}
+@media (max-width: 640px) {
+  .track-facts { grid-template-columns: 1fr 1fr; }
+  .track-fact { padding: 12px 14px; }
+  .track-fact:nth-child(3) { border-left: 0; }
+  .track-fact:nth-child(n + 3) { border-top: 1px solid var(--border); }
+}

@@ -35,7 +35,7 @@ Built for a league where everyone races the same track one at a time on a single
 
 League rules are in [`docs/rules.md`](docs/rules.md).
 
-Track outlines come from the open [f1-circuits](https://github.com/bacinger/f1-circuits) dataset (MIT); see [`docs/THIRD_PARTY.md`](docs/THIRD_PARTY.md).
+Track outlines come from the open [f1-circuits](https://github.com/bacinger/f1-circuits) dataset (MIT); see [`docs/THIRD_PARTY.md`](docs/THIRD_PARTY.md). Track facts (length, corners, elevation change) and their sources are listed in [`docs/track-data-sources.md`](docs/track-data-sources.md).
 
 ## Run it yourself
 

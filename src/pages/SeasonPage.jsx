@@ -123,7 +123,9 @@ export default function SeasonPage() {
                       Live timing →
                     </Link>
                   ) : (
-                    <StatusPill status={race.status} />
+                    <Link to={`/races/${race.id}`} className="result-link muted">
+                      Track info →
+                    </Link>
                   )}
                 </span>
               </li>
