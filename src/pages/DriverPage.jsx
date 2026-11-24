@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { getDriver, getSeasons, pickCurrentSeason } from '../data/api'
 import { useLoad } from '../lib/useLoad'
-import { flag, formatGap, formatLap, ordinal } from '../lib/format'
+import Flag from '../components/Flag'
+import { formatGap, formatLap, ordinal } from '../lib/format'
 import { Avatar, ErrorNote, Loading, RookieBadge } from '../components/ui'
 import { TEAM_COLORS } from '../components/CarSide'
 import CarPicture from '../components/CarPicture'
@@ -100,7 +101,7 @@ export default function DriverPage() {
                 <tr key={r.race_id}>
                   <td>
                     <Link to={`/races/${r.race_id}`}>
-                      {flag(r.race.track?.country_code)} R{r.race.round} {r.race.track?.name}
+                      <Flag code={r.race.track?.country_code} /> R{r.race.round} {r.race.track?.name}
                     </Link>
                   </td>
                   <td>{r.dnf ? <span className="dnf">DNF</span> : ordinal(r.final_position)}</td>

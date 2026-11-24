@@ -1,7 +1,8 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { getRaces, getSeasons, getStandings, getWinners, pickCurrentSeason } from '../data/api'
 import { useLoad } from '../lib/useLoad'
-import { flag, formatDate } from '../lib/format'
+import Flag from '../components/Flag'
+import { formatDate } from '../lib/format'
 import { Avatar, DriverLink, ErrorNote, Loading, RookieBadge, StatusPill } from '../components/ui'
 
 export default function SeasonPage() {
@@ -61,7 +62,7 @@ export default function SeasonPage() {
           <article className={`card next-race ${next.status === 'live' ? 'is-live' : ''}`}>
             <p className="eyebrow">{next.status === 'live' ? 'Racing now' : 'Next race'}</p>
             <h2>
-              <span className="flag">{flag(next.track.country_code)}</span> {next.track.name}
+              <Flag code={next.track.country_code} /> {next.track.name}
             </h2>
             <p>{next.track.grand_prix}</p>
             <p className="muted">
@@ -107,7 +108,7 @@ export default function SeasonPage() {
             return (
               <li key={race.id} className={`calendar-row ${isNext ? 'is-next' : ''}`}>
                 <span className="round">R{race.round}</span>
-                <span className="flag">{flag(race.track.country_code)}</span>
+                <Flag code={race.track.country_code} />
                 <span className="calendar-track">
                   <strong>{race.track.name}</strong>
                   <span className="muted">{race.track.grand_prix}</span>

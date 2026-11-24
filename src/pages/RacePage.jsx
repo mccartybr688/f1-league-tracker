@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
 import { getRace } from '../data/api'
 import { useLoad } from '../lib/useLoad'
-import { flag, formatDate, formatGap, formatLap } from '../lib/format'
+import Flag from '../components/Flag'
+import { formatDate, formatGap, formatLap } from '../lib/format'
 import { Avatar, DriverLink, ErrorNote, Loading, StatusPill } from '../components/ui'
 import StartLights from '../components/StartLights'
 import TrackOutline from '../components/TrackOutline'
@@ -33,7 +34,7 @@ export default function RacePage() {
               Round {race.round} · {formatDate(race.race_date)}
             </p>
             <h1>
-              <span className="flag">{flag(race.track.country_code)}</span> {race.track.name}
+              <Flag code={race.track.country_code} /> {race.track.name}
             </h1>
             <p>{race.track.grand_prix}</p>
             <p className="muted small">
