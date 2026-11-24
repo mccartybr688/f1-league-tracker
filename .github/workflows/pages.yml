@@ -18,6 +18,8 @@ concurrency:
 
 jobs:
   build:
+    # Only the public demo repo publishes to Pages (private copies skip this).
+    if: github.repository == 'mccartybr688/f1-league-tracker'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
