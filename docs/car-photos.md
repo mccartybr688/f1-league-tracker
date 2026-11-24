@@ -18,4 +18,7 @@ can show real photos instead by adding `family/car-photos.json`:
 - `teams` keys are lower-case team names, matched against a driver's in-game car.
 - Use freely licensed images (e.g. Wikimedia Commons, CC BY / CC BY-SA / CC0) and keep
   the author, licence and source fields: the app shows them as the required credit.
+- Instead of `src`, an entry can give `file`: an image in `family/car-photos/` (for
+  example a cut-out WebP with a transparent background). It's bundled with the site and
+  credited as "background removed". Edited CC BY-SA images stay under the same licence.
 - If an image fails to load, the illustration is shown instead.

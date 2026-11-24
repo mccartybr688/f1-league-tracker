@@ -9,10 +9,10 @@ export default function CarPicture({ photo, team, color, alt }) {
   const [broken, setBroken] = useState(false)
   if (!photo || broken) return <CarSide team={team} color={color} title={alt} />
   return (
-    <figure className="car-photo">
+    <figure className={`car-photo ${photo.cutout ? 'car-photo--cutout' : ''}`}>
       <img src={photo.src} alt={alt} loading="lazy" onError={() => setBroken(true)} />
       <figcaption>
-        Photo: {photo.author} ·{' '}
+        Photo: {photo.author}{photo.cutout ? ' (background removed)' : ''} ·{' '}
         {photo.licenseUrl ? <a href={photo.licenseUrl} target="_blank" rel="noreferrer">{photo.license}</a> : photo.license}
         {' · '}
         <a href={photo.page} target="_blank" rel="noreferrer">Wikimedia Commons</a>

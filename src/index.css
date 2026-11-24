@@ -315,3 +315,8 @@ button { font: inherit; }
 svg.flag { width: 1.35em; height: auto; vertical-align: -0.12em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,0.12); }
 h1 svg.flag { width: 1.1em; }
 .flag--text { font-size: 0.75em; font-weight: 700; color: var(--muted); }
+
+.car-photo--cutout img {
+  aspect-ratio: auto; object-fit: contain; background: none; border-radius: 0;
+  max-height: 190px; filter: drop-shadow(0 10px 8px rgba(0,0,0,0.55));
+}
