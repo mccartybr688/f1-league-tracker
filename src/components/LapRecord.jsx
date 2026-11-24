@@ -1,4 +1,5 @@
-import CarSide from './CarSide'
+import CarPicture from './CarPicture'
+import { recordPhoto } from '../data/carPhotos'
 import { formatLap } from '../lib/format'
 
 /** Real-world official race lap record for a track, with a team-coloured car. */
@@ -6,7 +7,11 @@ export default function LapRecord({ track }) {
   if (!track.record_ms) return null
   return (
     <div className="lap-record">
-      <CarSide team={track.record_team} title={`${track.record_team}-coloured car (illustration)`} />
+      <CarPicture
+        photo={recordPhoto(track)}
+        team={track.record_team}
+        alt={`${track.record_team} car from ${track.record_year}`}
+      />
       <div className="lap-record__time mono">{formatLap(track.record_ms)}</div>
       <div>
         <strong>{track.record_driver}</strong>

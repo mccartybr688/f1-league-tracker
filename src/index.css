@@ -304,3 +304,9 @@ button { font: inherit; }
 }
 .profile__car .car-side { width: 100%; height: auto; }
 @media (max-width: 760px) { .grid-track { grid-template-columns: 1fr; } }
+
+/* Real car photo (private builds) */
+.car-photo { margin: 0 0 6px; display: grid; gap: 4px; width: 100%; }
+.car-photo img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; background: var(--surface-2); }
+.car-photo figcaption { font-size: 0.7rem; color: var(--muted); }
+.car-photo figcaption a { color: var(--muted); }
