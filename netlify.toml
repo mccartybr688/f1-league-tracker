@@ -3,6 +3,9 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # Free plan: each production deploy costs credits, so only build when the
+  # latest commit message contains [deploy]. (Exit 0 = skip this build.)
+  ignore = "! git log -1 --pretty=%B | grep -q '\\[deploy\\]'"
 
 [build.environment]
   NODE_VERSION = "22"
@@ -15,3 +18,15 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     # Keep the family site out of search engines.
     X-Robots-Tag = "noindex, nofollow"
+
+# Always fetch the latest page so TVs/phones pick up new versions
+# (the hashed files in /assets can be cached forever).
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
