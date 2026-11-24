@@ -1,0 +1,49 @@
+# F1 League Tracker
+
+A small web app for running a home **F1 sim-racing league**: driver profiles, a season schedule, a **live race-day leaderboard** for the TV, and season standings.
+
+Built for a league where everyone races the same track one at a time on a single sim rig, and each driver's **best single lap** decides the result.
+
+> This public repo runs on **demo data with made-up drivers**. The real league runs from a private copy.
+
+## Features (planned / in progress)
+
+- [x] Data model: seasons, tracks, drivers, races, results
+- [x] Rules enforced in the database: points, tie-breaks, running order, race locking
+- [x] Row-level security: signed-in viewers read, only the admin writes
+- [ ] Season page and driver profiles (Rookie badge in a driver's first season)
+- [ ] Admin time entry (DNF, penalties, typo fixes, finalize)
+- [ ] Live TV leaderboard: re-sorts as times arrive, gap to leader, newest-time highlight, who's up next
+- [ ] Standings and results by race
+- [ ] Podium screen and champion crowning
+
+## Stack
+
+- **Supabase**: Postgres, realtime updates, auth, row-level security
+- Static front end (hosting: Netlify or GitHub Pages)
+
+## How it works
+
+| Piece | What it does |
+|---|---|
+| `race_leaderboard` view | Live positions, gap to leader, `is_newest`, `is_up_next`, computed in SQL |
+| `season_standings` view | Points table with countback tie-break and rookie flag |
+| `set_run_order()` | Random for the very first race; after that from standings with the **leader running last** |
+| `finalize_race()` / `reopen_race()` | Freeze positions and points, or unlock a race to fix a mistake |
+| Realtime on `races` + `race_entries` | The TV display re-reads the leaderboard the moment a time is entered |
+
+League rules are in [`docs/rules.md`](docs/rules.md).
+
+## Run it yourself
+
+1. Create a free Supabase project.
+2. In the SQL Editor, run `supabase/migrations/0001_schema.sql`, then `supabase/seed.sql` for demo data.
+3. Create a user under **Authentication → Users**, then make it the admin:
+   ```sql
+   insert into public.admins (user_id) values ('<user-uuid>');
+   ```
+4. Copy `.env.example` to `.env` and fill in your project URL and anon key.
+
+## License
+
+MIT

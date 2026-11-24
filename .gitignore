@@ -1,0 +1,12 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Dependencies / builds
+node_modules/
+dist/
+.DS_Store
+
+# Family-only data never belongs in the public repo
+family/
