@@ -4,6 +4,8 @@ A small web app for running a home **F1 sim-racing league**: driver profiles, a 
 
 Built for a league where everyone races the same track one at a time on a single sim rig, and each driver's **best single lap** decides the result.
 
+**▶ Live demo: https://mccartybr688.github.io/f1-league-tracker/** (made-up drivers and results)
+
 > This public repo runs on **demo data with made-up drivers**. The real league runs from a private copy.
 
 ## Features (planned / in progress)
